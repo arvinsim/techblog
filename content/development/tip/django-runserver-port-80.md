@@ -1,10 +1,10 @@
 +++
-categories = ["development"]
+title = "Using port 80 with Django's runserver command"
+description = "Django's runserver could not normally run on port 80. But there is a way to circumvent it."
 date = "2015-01-27T23:30:54+08:00"
-description = ""
+categories = ["development"]
 menu = ["main", "development", "tip"]
-tags = ["tip"]
-title = "django runserver port 0"
+tags = ["tip", "python", "django", "runserver"]
 
 +++
 
