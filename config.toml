@@ -1,0 +1,16 @@
+baseurl = "http://arvinsim.github.io/techblog"
+languageCode = "en-us"
+title = "Tech Blog"
+
+publishDir = "../public"
+layoutDir = "layouts"
+contentDir = "content"
+
+[indexes]
+    tag = "tags"
+    category = "categories"
+
+[params]
+    description = "Tech related Thoughts"
+    author = "Arthur Vincent Simon"
+
