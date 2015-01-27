@@ -10,7 +10,7 @@
     <updated>Tue, 27 Jan 2015 23:30:54 PHT</updated>
     
     <item>
-      <title>django runserver port 0</title>
+      <title>Using port 80 with Django&#39;s runserver command</title>
       <link>http://arvinsim.github.io/techblog/development/tip/django-runserver-port-80/</link>
       <pubDate>Tue, 27 Jan 2015 23:30:54 PHT</pubDate>
       
