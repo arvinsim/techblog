@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Developments on Tech Blog </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://arvinsim.github.io/techblog/development/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Tue, 27 Jan 2015 23:30:54 PHT</updated>
+    
+    <item>
+      <title>django runserver port 0</title>
+      <link>http://arvinsim.github.io/techblog/development/tip/django-runserver-port-80/</link>
+      <pubDate>Tue, 27 Jan 2015 23:30:54 PHT</pubDate>
+      
+      <guid>http://arvinsim.github.io/techblog/development/tip/django-runserver-port-80/</guid>
+      <description>&lt;p&gt;If you want to test your Django application on port 80, you would probably do something like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;python manage.py runserver yourdomain.com:80
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Unfortunately, this would not work. It would cause an error.&lt;/p&gt;
+
+&lt;p&gt;To force the usage of port 80, make sure you follow this steps&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Make sure that no other application is using port 80. Examples of applications that do are local webservers like Apache and Tomcat. Here are some tips to check what programs are running on port 80 in &lt;a href=&#34;http://stackoverflow.com/questions/1960750/how-to-find-which-program-is-using-port-80-in-windows&#34;&gt;Windows&lt;/a&gt;, &lt;a href=&#34;http://www.cyberciti.biz/faq/find-linux-what-running-on-port-80-command/&#34;&gt;Linux&lt;/a&gt; and &lt;a href=&#34;http://www.databasically.com/2011/06/02/mac-os-x-find-the-program-running-on-a-port/&#34;&gt;Mac&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After verifying that there no other application is using port 80, run the command above as root&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- This comment is needed so that the command below will be shown in code form --&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo python manage.py runserver yourdomain.com:80
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Important&lt;/em&gt;: Only use this tip for testing purposes only.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

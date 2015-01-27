@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title> django runserver port 0 &middot; Tech Blog </title>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+
+<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://arvinsim.github.io/techblog/css/main.css">
+
+    </head>
+    <body>
+        <div class="pure-g">
+            <div class="sidebar pure-u-1 pure-u-md-1-4">
+                <div class="header">
+    <div class="site-logo">＿〆(。。)</div>
+    <h1 class="site-title"><a href="http://arvinsim.github.io/techblog">Tech Blog</a></h1>
+    <h2 class="site-subtitle">Thoughts, tips and more</h2>
+    <footer>
+    &copy; 2015 All Rights Reserved.
+</footer>
+
+</div>
+
+            </div>
+            <div class="main-content pure-u-1 pure-u-md-3-4">
+                <section class="post">
+                    <h1>django runserver port 0</h1>
+                    <span class="post-date">January 2727, 27000</span>
+                    <ul class="tags">
+                        
+                        <li>
+                        <a href="http://arvinsim.github.io/techblog/tags/tip" class="buttom-small pure-button">tip</a>
+                        </li>
+                        
+                    </ul>
+                    <p>If you want to test your Django application on port 80, you would probably do something like this</p>
+
+<pre><code>python manage.py runserver yourdomain.com:80
+</code></pre>
+
+<p>Unfortunately, this would not work. It would cause an error.</p>
+
+<p>To force the usage of port 80, make sure you follow this steps</p>
+
+<ol>
+<li><p>Make sure that no other application is using port 80. Examples of applications that do are local webservers like Apache and Tomcat. Here are some tips to check what programs are running on port 80 in <a href="http://stackoverflow.com/questions/1960750/how-to-find-which-program-is-using-port-80-in-windows">Windows</a>, <a href="http://www.cyberciti.biz/faq/find-linux-what-running-on-port-80-command/">Linux</a> and <a href="http://www.databasically.com/2011/06/02/mac-os-x-find-the-program-running-on-a-port/">Mac</a></p></li>
+
+<li><p>After verifying that there no other application is using port 80, run the command above as root</p></li>
+</ol>
+
+<!-- This comment is needed so that the command below will be shown in code form -->
+
+<pre><code>sudo python manage.py runserver yourdomain.com:80
+</code></pre>
+
+<p><em>Important</em>: Only use this tip for testing purposes only.</p>
+
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
