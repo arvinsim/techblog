@@ -13,4 +13,5 @@ contentDir = "content"
 [params]
     description = "Tech related Thoughts"
     author = "Arthur Vincent Simon"
+    subtitle = "Tech, Thought, Talk"
 
