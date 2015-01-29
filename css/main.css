@@ -38,12 +38,8 @@ body pre code {
 .sidebar {
   background-color: #003613;
   color: #ffffff;
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
 }
 .sidebar .header {
-  margin: 80% 2em 0px;
   text-align: right;
 }
 .sidebar .header .site-logo {
@@ -56,10 +52,6 @@ body pre code {
 }
 .sidebar .header .site-subtitle {
   color: #336946;
-}
-.main-content {
-  padding: 2em 3em 0px;
-  margin-left: 25%;
 }
 .main-content .post h1 a {
   color: inherit;
@@ -119,4 +111,19 @@ body pre code {
 }
 .main-content.single .post .content {
   margin-top: 2em;
+}
+/* Media queries */
+@media (min-width: 48em) {
+  .main-content {
+    padding: 2em 3em 0;
+    margin-left: 25%;
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+  .sidebar .header {
+    margin: 10% 2em 0;
+  }
 }
