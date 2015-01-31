@@ -6,7 +6,7 @@ publishDir = "../public"
 layoutDir = "layouts"
 contentDir = "content"
 
-[indexes]
+[taxonomies]
     tag = "tags"
     language = "languages"
     platform = "platforms"
