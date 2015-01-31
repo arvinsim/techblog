@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title> Reverting changes in Git &middot; Tech Blog </title>
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+
+<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://localhost:1313/techblog/css/main.css">
+
+    </head>
+    <body>
+        <div class="pure-g">
+            <div class="sidebar pure-u-1 pure-u-md-1-4">
+                <div class="header">
+    <div class="site-logo">＿〆(。。)</div>
+    <h1 class="site-title"><a href="http://localhost:1313/techblog">Tech Blog</a></h1>
+    <h2 class="site-subtitle">Tech, Thought, Talk</h2>
+    <footer>
+    &copy; 2015 All Rights Reserved.
+</footer>
+
+</div>
+
+            </div>
+            <div class="main-content single pure-u-1 pure-u-md-3-4">
+                <section class="post">
+                    <h1>Reverting changes in Git</h1>
+                    <span class="post-date">January 31, 2015</span>
+                    <ul class="tags">
+                        
+                        <li>
+                        <a href="http://localhost:1313/techblog/tags/git" class="button-small pure-button">git</a>
+                        </li>
+                        
+                        <li>
+                        <a href="http://localhost:1313/techblog/tags/svn" class="button-small pure-button">svn</a>
+                        </li>
+                        
+                    </ul>
+                    <div class="content">
+                    
+
+<p>Git has a number of terms in common with Subversion that actually mean different things. It is something that often trips up new Git users who have used Subversion before.</p>
+
+<p>One of this is how to change your current branch back to the latest commit.</p>
+
+<p>Subversion uses the <code>revert</code> term while Git uses <code>reset</code></p>
+
+<h2 id="toc_0">Going back without saving changes</h2>
+
+<p>To do a quick reset in Git without saving your current changes, just do this command</p>
+
+<pre><code>git reset {files} ...
+</code></pre>
+
+<p>If you don&rsquo;t pass the <code>{files}</code> argument, it will assume that you want to reset everything</p>
+
+<h2 id="toc_1">Going back while storing the changes</h2>
+
+<p>If on the other you want to</p>
+
+<pre><code>git stash
+git reset {files} ...
+git stash pop
+</code></pre>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    <script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

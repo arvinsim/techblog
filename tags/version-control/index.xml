@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Version-Control on Tech Blog </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://arvinsim.github.io/techblog/tags/version-control/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sat, 31 Jan 2015 09:42:15 PHT</updated>
+    
+    <item>
+      <title>Reverting changes in Git</title>
+      <link>http://arvinsim.github.io/techblog/software/programming/reverting-changes-in-git/</link>
+      <pubDate>Sat, 31 Jan 2015 09:42:15 PHT</pubDate>
+      
+      <guid>http://arvinsim.github.io/techblog/software/programming/reverting-changes-in-git/</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Unmodify changes&lt;/h2&gt;
+
+&lt;p&gt;To unmodify the changes in a modifed file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git checkout -- [files]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you pass files as arguments, it will change those files back to the latest commit. Any modification that you did after the latest commit would be lost. Use this with caution.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Unmodify changes but save your current changes&lt;/h2&gt;
+
+&lt;p&gt;On the other hand, if you want to change back to the latest commit copy but want to somehow save your current modifications&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git stash [message_name]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will save your modifications to a file and revert your files back to the latest commit. Keep in mind that this applies to all files.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

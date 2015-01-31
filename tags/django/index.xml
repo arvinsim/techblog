@@ -11,10 +11,10 @@
     
     <item>
       <title>Using port 80 with Django&#39;s runserver command</title>
-      <link>http://arvinsim.github.io/techblog/development/tip/django-runserver-port-80/</link>
+      <link>http://arvinsim.github.io/techblog/software/programming/django-runserver-port-80/</link>
       <pubDate>Tue, 27 Jan 2015 23:30:54 PHT</pubDate>
       
-      <guid>http://arvinsim.github.io/techblog/development/tip/django-runserver-port-80/</guid>
+      <guid>http://arvinsim.github.io/techblog/software/programming/django-runserver-port-80/</guid>
       <description>&lt;p&gt;If you want to test your Django application on port 80, you would probably do something like this&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;python manage.py runserver yourdomain.com:80

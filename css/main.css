@@ -53,6 +53,9 @@ body pre code {
 .sidebar .header .site-subtitle {
   color: #336946;
 }
+.main-content .post h1 {
+  margin: 0px;
+}
 .main-content .post h1 a {
   color: inherit;
   text-decoration: none;
