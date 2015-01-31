@@ -8,7 +8,9 @@ contentDir = "content"
 
 [indexes]
     tag = "tags"
-    category = "categories"
+    language = "languages"
+    platform = "platforms"
+    article-type = "article-types"
 
 [params]
     description = "Tech related Thoughts"
