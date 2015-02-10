@@ -7,7 +7,24 @@
     <language>en-us</language>
     
     
-    <updated>Sat, 31 Jan 2015 09:42:15 PHT</updated>
+    <updated>Tue, 10 Feb 2015 20:35:14 PHT</updated>
+    
+    <item>
+      <title>SVG Sequential Transforms Priority</title>
+      <link>http://arvinsim.github.io/techblog/software/programming/svg-sequential-transforms-priority/</link>
+      <pubDate>Tue, 10 Feb 2015 20:35:14 PHT</pubDate>
+      
+      <guid>http://arvinsim.github.io/techblog/software/programming/svg-sequential-transforms-priority/</guid>
+      <description>&lt;p&gt;When you want to do a series of sequential transforms on an SVG element, keep in mind that it is applied right to left.&lt;/p&gt;
+
+&lt;p&gt;In this example, this SVG code does the translate first, then the scaling, then the rotation.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;g transform=&amp;quot;rotate(45) scale(2) translate(100, 100)&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It is counterintuitive but that is how it works.  Hopefully this solves some problems you might have on your SVG transforms.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Reverting changes in Git</title>
