@@ -1,5 +1,6 @@
 +++
 date = "2015-02-10T20:35:14+08:00"
+description = "The SVG transform does not behave as you might expect"
 title = "SVG Sequential Transforms Priority"
 article-type = ["tip"]
 tags = ["svg", "transform"]
