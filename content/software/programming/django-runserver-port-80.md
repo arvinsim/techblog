@@ -10,7 +10,7 @@ tags = ["python", "django", "runserver"]
 
 If you want to test your Django application on port 80, you would probably do something like this
 
-    python manage.py runserver yourdomain.com:80
+<pre><code class="bash">python manage.py runserver yourdomain.com:80</code></pre>
 
 Unfortunately, this would not work. It would cause an error.
 
@@ -22,6 +22,6 @@ To force the usage of port 80, make sure you follow this steps
 
 <!-- This comment is needed so that the command below will be shown in code form -->
 
-    sudo python manage.py runserver yourdomain.com:80
+<pre><code class="bash">sudo python manage.py runserver yourdomain.com:80</code></pre>
 
 *Important*: Only use this tip for testing purposes only.

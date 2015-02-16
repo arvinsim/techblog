@@ -6,6 +6,8 @@ publishDir = "../public"
 layoutDir = "layouts"
 contentDir = "content"
 
+theme = "hugo-theme-mnmal"
+
 [taxonomies]
     tag = "tags"
     language = "languages"
