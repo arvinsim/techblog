@@ -15,6 +15,10 @@
 <link href='http://fonts.googleapis.com/css?family=Ubuntu|Cinzel' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="http://arvinsim.github.io/techblog/css/main.css">
 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
     </head>
     <body class="theme-dark-green">
         <div class="pure-g">
@@ -56,8 +60,7 @@
 
 <p>To unmodify the changes in a modifed file</p>
 
-<pre><code>git checkout -- [files]
-</code></pre>
+<pre><code>git checkout -- [files]</code></pre>
 
 <p>If you pass files as arguments, it will change those files back to the latest commit. Any modification that you did after the latest commit would be lost. Use this with caution.</p>
 
@@ -65,8 +68,7 @@
 
 <p>On the other hand, if you want to change back to the latest commit copy but want to somehow save your current modifications</p>
 
-<pre><code>git stash [message_name]
-</code></pre>
+<pre><code>git stash [message_name]</code></pre>
 
 <p>This will save your modifications to a file and revert your files back to the latest commit. Keep in mind that this applies to all files.</p>
 

@@ -1,17 +1,17 @@
-/** Colors **/
-/** Mixin **/
+/* Colors */
+/* Mixins */
 .unlink {
   color: inherit;
   text-decoration: none;
 }
-* {
-  box-sizing: border-box;
-}
-/** Pure CSS overrides **/
+/* Pure CSS overrides */
 .button-small {
   font-size: 0.75em;
 }
-/** *Main */
+/* Main */
+* {
+  box-sizing: border-box;
+}
 html,
 button,
 input,
@@ -20,24 +20,29 @@ textarea,
 .pure-g [class*="pure-u"] {
   font-family: 'Ubuntu', sans-serif;
 }
-body {
+body.theme-dark-blue {
+  background-color: #ffffff;
+  color: #031b40;
+}
+body.theme-dark-green {
   background-color: #ffffff;
   color: #003613;
 }
-body pre {
-  margin: 2em 0px;
+body.theme-gold {
+  background-color: #ffffff;
+  color: #000000;
 }
-body pre code {
-  font-family: monospace;
+.theme-dark-blue .sidebar {
+  background-color: #031b40;
   color: #ffffff;
-  background-color: #003613;
-  box-sizing: padding-box;
-  padding: 2em 2em;
-  border-radius: 3px;
 }
-.sidebar {
+.theme-dark-green .sidebar {
   background-color: #003613;
   color: #ffffff;
+}
+.theme-gold .sidebar {
+  background-color: #e5bf16;
+  color: #000000;
 }
 .sidebar .header {
   text-align: right;
@@ -46,6 +51,7 @@ body pre code {
   font-size: 2em;
 }
 .sidebar .header .site-title a {
+  font-family: 'Cinzel', 'Ubuntu', sans-serif;
   font-size: 2em;
   text-decoration: none;
   color: inherit;
@@ -53,7 +59,11 @@ body pre code {
 .sidebar .header .site-subtitle {
   color: #336946;
 }
+.main-content p {
+  text-align: justify;
+}
 .main-content .post h1 {
+  font-size: 3em;
   margin: 0px;
 }
 .main-content .post h1 a {

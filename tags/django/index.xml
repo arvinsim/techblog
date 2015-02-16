@@ -17,8 +17,7 @@
       <guid>http://arvinsim.github.io/techblog/software/programming/django-runserver-port-80/</guid>
       <description>&lt;p&gt;If you want to test your Django application on port 80, you would probably do something like this&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;python manage.py runserver yourdomain.com:80
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;python manage.py runserver yourdomain.com:80&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Unfortunately, this would not work. It would cause an error.&lt;/p&gt;
 
@@ -32,8 +31,7 @@
 
 &lt;!-- This comment is needed so that the command below will be shown in code form --&gt;
 
-&lt;pre&gt;&lt;code&gt;sudo python manage.py runserver yourdomain.com:80
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;sudo python manage.py runserver yourdomain.com:80&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;em&gt;Important&lt;/em&gt;: Only use this tip for testing purposes only.&lt;/p&gt;
 </description>

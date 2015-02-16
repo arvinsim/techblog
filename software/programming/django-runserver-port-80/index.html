@@ -15,6 +15,10 @@
 <link href='http://fonts.googleapis.com/css?family=Ubuntu|Cinzel' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="http://arvinsim.github.io/techblog/css/main.css">
 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
     </head>
     <body class="theme-dark-green">
         <div class="pure-g">
@@ -52,8 +56,7 @@
                     <div class="content">
                     <p>If you want to test your Django application on port 80, you would probably do something like this</p>
 
-<pre><code>python manage.py runserver yourdomain.com:80
-</code></pre>
+<pre><code class="bash">python manage.py runserver yourdomain.com:80</code></pre>
 
 <p>Unfortunately, this would not work. It would cause an error.</p>
 
@@ -67,8 +70,7 @@
 
 <!-- This comment is needed so that the command below will be shown in code form -->
 
-<pre><code>sudo python manage.py runserver yourdomain.com:80
-</code></pre>
+<pre><code class="bash">sudo python manage.py runserver yourdomain.com:80</code></pre>
 
 <p><em>Important</em>: Only use this tip for testing purposes only.</p>
 
