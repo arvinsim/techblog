@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Transform on Tech Blog </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://arvinsim.github.io/techblog/tags/transform/index.xml/</link>
+    <title>Transform on Think Tech</title>
+    <link>http://arvinsim.github.io/techblog/tags/transform/</link>
+    <description>Recent content in Transform on Think Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-    
-    <updated>Tue, 10 Feb 2015 20:35:14 PHT</updated>
+    <lastBuildDate>Tue, 10 Feb 2015 20:35:14 +0800</lastBuildDate>
+    <atom:link href="http://arvinsim.github.io/techblog/tags/transform/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>SVG Sequential Transforms Priority</title>
       <link>http://arvinsim.github.io/techblog/software/programming/svg-sequential-transforms-priority/</link>
-      <pubDate>Tue, 10 Feb 2015 20:35:14 PHT</pubDate>
+      <pubDate>Tue, 10 Feb 2015 20:35:14 +0800</pubDate>
       
       <guid>http://arvinsim.github.io/techblog/software/programming/svg-sequential-transforms-priority/</guid>
       <description>&lt;p&gt;When you want to do a series of sequential transforms on an SVG element, keep in mind that it is applied right to left.&lt;/p&gt;

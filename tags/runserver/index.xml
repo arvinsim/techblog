@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Runserver on Tech Blog </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://arvinsim.github.io/techblog/tags/runserver/index.xml/</link>
+    <title>Runserver on Think Tech</title>
+    <link>http://arvinsim.github.io/techblog/tags/runserver/</link>
+    <description>Recent content in Runserver on Think Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-    
-    <updated>Tue, 27 Jan 2015 23:30:54 PHT</updated>
+    <lastBuildDate>Tue, 27 Jan 2015 23:30:54 +0800</lastBuildDate>
+    <atom:link href="http://arvinsim.github.io/techblog/tags/runserver/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Using port 80 with Django&#39;s runserver command</title>
       <link>http://arvinsim.github.io/techblog/software/programming/django-runserver-port-80/</link>
-      <pubDate>Tue, 27 Jan 2015 23:30:54 PHT</pubDate>
+      <pubDate>Tue, 27 Jan 2015 23:30:54 +0800</pubDate>
       
       <guid>http://arvinsim.github.io/techblog/software/programming/django-runserver-port-80/</guid>
       <description>&lt;p&gt;If you want to test your Django application on port 80, you would probably do something like this&lt;/p&gt;

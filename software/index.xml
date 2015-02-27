@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Softwares on Tech Blog </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://arvinsim.github.io/techblog/software/index.xml/</link>
+    <title>Softwares on Think Tech</title>
+    <link>http://arvinsim.github.io/techblog/software/</link>
+    <description>Recent content in Softwares on Think Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-    
-    <updated>Tue, 10 Feb 2015 20:35:14 PHT</updated>
+    <lastBuildDate>Tue, 10 Feb 2015 20:35:14 +0800</lastBuildDate>
+    <atom:link href="http://arvinsim.github.io/techblog/software/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>SVG Sequential Transforms Priority</title>
       <link>http://arvinsim.github.io/techblog/software/programming/svg-sequential-transforms-priority/</link>
-      <pubDate>Tue, 10 Feb 2015 20:35:14 PHT</pubDate>
+      <pubDate>Tue, 10 Feb 2015 20:35:14 +0800</pubDate>
       
       <guid>http://arvinsim.github.io/techblog/software/programming/svg-sequential-transforms-priority/</guid>
       <description>&lt;p&gt;When you want to do a series of sequential transforms on an SVG element, keep in mind that it is applied right to left.&lt;/p&gt;
@@ -29,12 +29,12 @@
     <item>
       <title>Reverting changes in Git</title>
       <link>http://arvinsim.github.io/techblog/software/programming/reverting-changes-in-git/</link>
-      <pubDate>Sat, 31 Jan 2015 09:42:15 PHT</pubDate>
+      <pubDate>Sat, 31 Jan 2015 09:42:15 +0800</pubDate>
       
       <guid>http://arvinsim.github.io/techblog/software/programming/reverting-changes-in-git/</guid>
       <description>
 
-&lt;h2 id=&#34;toc_0&#34;&gt;Unmodify changes&lt;/h2&gt;
+&lt;h2 id=&#34;unmodify-changes:7f4d9cfcbc79e34dbeadf7799877c40f&#34;&gt;Unmodify changes&lt;/h2&gt;
 
 &lt;p&gt;To unmodify the changes in a modifed file&lt;/p&gt;
 
@@ -42,7 +42,7 @@
 
 &lt;p&gt;If you pass files as arguments, it will change those files back to the latest commit. Any modification that you did after the latest commit would be lost. Use this with caution.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_1&#34;&gt;Unmodify changes but save your current changes&lt;/h2&gt;
+&lt;h2 id=&#34;unmodify-changes-but-save-your-current-changes:7f4d9cfcbc79e34dbeadf7799877c40f&#34;&gt;Unmodify changes but save your current changes&lt;/h2&gt;
 
 &lt;p&gt;On the other hand, if you want to change back to the latest commit copy but want to somehow save your current modifications&lt;/p&gt;
 
@@ -55,7 +55,7 @@
     <item>
       <title>Using port 80 with Django&#39;s runserver command</title>
       <link>http://arvinsim.github.io/techblog/software/programming/django-runserver-port-80/</link>
-      <pubDate>Tue, 27 Jan 2015 23:30:54 PHT</pubDate>
+      <pubDate>Tue, 27 Jan 2015 23:30:54 +0800</pubDate>
       
       <guid>http://arvinsim.github.io/techblog/software/programming/django-runserver-port-80/</guid>
       <description>&lt;p&gt;If you want to test your Django application on port 80, you would probably do something like this&lt;/p&gt;

@@ -1,60 +1,43 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title> Using port 80 with Django&#39;s runserver command &middot; Tech Blog </title>
+<title> Using port 80 with Django&#39;s runserver command &middot; Think Tech </title>
 
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-
-
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-
-<link href='http://fonts.googleapis.com/css?family=Ubuntu|Cinzel' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="http://arvinsim.github.io/techblog/css/main.css">
-
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
     </head>
-    <body class="theme-dark-green">
-        <div class="pure-g">
-            <div class="sidebar pure-u-1 pure-u-md-1-4">
-                <div class="header">
-    <div class="site-logo">＿〆(。。)</div>
-    <h1 class="site-title"><a href="http://arvinsim.github.io/techblog">Tech Blog</a></h1>
-    <h2 class="site-subtitle">Tech related Thoughts</h2>
-    <footer>
-    &copy; 2015 All Rights Reserved.
-</footer>
-
+    <body>
+        <div class="app">
+            <section class="sidebar">
+                <div class="details">
+    <span class="logo">＿〆(。。)</span>
+    <h1 class="title"><a href="http://arvinsim.github.io/techblog">Think Tech</a></h1>
+    <h2 class="description">Tech related Thoughts</h2>
 </div>
 
-            </div>
-            <div class="main-content single pure-u-1 pure-u-md-3-4">
-                <section class="post">
-                    <h1>Using port 80 with Django&#39;s runserver command</h1>
-                    <span class="post-date">January 27, 2015</span>
-                    <ul class="tags">
-                        
-                        <li>
-                        <a href="http://arvinsim.github.io/techblog/tags/python" class="button-small pure-button">python</a>
-                        </li>
-                        
-                        <li>
-                        <a href="http://arvinsim.github.io/techblog/tags/django" class="button-small pure-button">django</a>
-                        </li>
-                        
-                        <li>
-                        <a href="http://arvinsim.github.io/techblog/tags/runserver" class="button-small pure-button">runserver</a>
-                        </li>
-                        
-                    </ul>
-                    <div class="content">
-                    <p>If you want to test your Django application on port 80, you would probably do something like this</p>
+            </section>
+            <main class="single">
+                
+<section class="post">
+    <div class="header">
+        <span class="date">January 27, 2015</span>
+        <h1>Using port 80 with Django&#39;s runserver command</h1>
+        
+            <a href="http://arvinsim.github.io/techblog/tags/python" class="tag">python</a>
+        
+            <a href="http://arvinsim.github.io/techblog/tags/django" class="tag">django</a>
+        
+            <a href="http://arvinsim.github.io/techblog/tags/runserver" class="tag">runserver</a>
+        
+    </div>
+    <div class="content">
+    <p>If you want to test your Django application on port 80, you would probably do something like this</p>
 
 <pre><code class="bash">python manage.py runserver yourdomain.com:80</code></pre>
 
@@ -74,9 +57,14 @@
 
 <p><em>Important</em>: Only use this tip for testing purposes only.</p>
 
-                    </div>
-                </section>
-            </div>
+    </div>
+</section>
+
+            </main>
+            <footer>
+    &copy; 2015 All Rights Reserved.
+</footer>
+
         </div>
     </body>
 </html>

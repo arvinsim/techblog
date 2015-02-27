@@ -1,56 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title> SVG Sequential Transforms Priority &middot; Tech Blog </title>
+<title> SVG Sequential Transforms Priority &middot; Think Tech </title>
 
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-
-
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-
-<link href='http://fonts.googleapis.com/css?family=Ubuntu|Cinzel' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="http://arvinsim.github.io/techblog/css/main.css">
-
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
     </head>
-    <body class="theme-dark-green">
-        <div class="pure-g">
-            <div class="sidebar pure-u-1 pure-u-md-1-4">
-                <div class="header">
-    <div class="site-logo">＿〆(。。)</div>
-    <h1 class="site-title"><a href="http://arvinsim.github.io/techblog">Tech Blog</a></h1>
-    <h2 class="site-subtitle">Tech related Thoughts</h2>
-    <footer>
-    &copy; 2015 All Rights Reserved.
-</footer>
-
+    <body>
+        <div class="app">
+            <section class="sidebar">
+                <div class="details">
+    <span class="logo">＿〆(。。)</span>
+    <h1 class="title"><a href="http://arvinsim.github.io/techblog">Think Tech</a></h1>
+    <h2 class="description">Tech related Thoughts</h2>
 </div>
 
-            </div>
-            <div class="main-content single pure-u-1 pure-u-md-3-4">
-                <section class="post">
-                    <h1>SVG Sequential Transforms Priority</h1>
-                    <span class="post-date">February 10, 2015</span>
-                    <ul class="tags">
-                        
-                        <li>
-                        <a href="http://arvinsim.github.io/techblog/tags/svg" class="button-small pure-button">svg</a>
-                        </li>
-                        
-                        <li>
-                        <a href="http://arvinsim.github.io/techblog/tags/transform" class="button-small pure-button">transform</a>
-                        </li>
-                        
-                    </ul>
-                    <div class="content">
-                    <p>When you want to do a series of sequential transforms on an SVG element, keep in mind that it is applied right to left.</p>
+            </section>
+            <main class="single">
+                
+<section class="post">
+    <div class="header">
+        <span class="date">February 10, 2015</span>
+        <h1>SVG Sequential Transforms Priority</h1>
+        
+            <a href="http://arvinsim.github.io/techblog/tags/svg" class="tag">svg</a>
+        
+            <a href="http://arvinsim.github.io/techblog/tags/transform" class="tag">transform</a>
+        
+    </div>
+    <div class="content">
+    <p>When you want to do a series of sequential transforms on an SVG element, keep in mind that it is applied right to left.</p>
 
 <p>In this example, this SVG code does the translate first, then the scaling, then the rotation.</p>
 
@@ -59,9 +44,14 @@
 
 <p>It is counterintuitive but that is how it works.  Hopefully this solves some problems you might have on your SVG transforms.</p>
 
-                    </div>
-                </section>
-            </div>
+    </div>
+</section>
+
+            </main>
+            <footer>
+    &copy; 2015 All Rights Reserved.
+</footer>
+
         </div>
     </body>
 </html>
