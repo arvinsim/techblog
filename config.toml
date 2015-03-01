@@ -2,7 +2,7 @@ baseurl = "http://arvinsim.github.io/techblog"
 languageCode = "en-us"
 title = "Think Tech"
 
-publishDir = "../public"
+publishDir = "public"
 layoutDir = "layouts"
 contentDir = "content"
 
