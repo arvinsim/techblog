@@ -1,8 +1,11 @@
 +++
-date = "2015-02-27T12:01:07+08:00"
 title = "Site Redesign: Contrast Ratio"
+description = "Do you want to make your text readable?"
+date = "2015-02-27T12:01:07+08:00"
 menu = ["main", "software", "tools"]
 articleTypes = ["series"]
+tags = ["typography", "usability", "wcag", "contrast"]
+
 +++
 
 During this site redesign, I wanted to check if my text look

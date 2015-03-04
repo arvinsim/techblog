@@ -2,7 +2,7 @@
 title = "Reverting changes in Git"
 description = "How to change files back to the latest commit in Git"
 date = "2015-01-31T09:42:15+08:00"
-article-type = ["tip"]
+articleTypes = ["tip"]
 tags = ["git", "svn", "version-control"]
 +++
 

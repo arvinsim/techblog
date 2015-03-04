@@ -1,6 +1,6 @@
 baseurl = "http://arvinsim.github.io/techblog"
 languageCode = "en-us"
-title = "Think Tech"
+title = "Thinker's Tech Tips"
 
 publishDir = "public"
 layoutDir = "layouts"
@@ -15,7 +15,6 @@ theme = "hugo-theme-mnmal"
     articleType = "articleTypes"
 
 [params]
-    description = "Tech related Thoughts"
+    description = "A web developer blog"
     author = "Arthur Vincent Simon"
-    subtitle = "Tech, Thoughts, Talk"
 

@@ -2,10 +2,9 @@
 title = "Using port 80 with Django's runserver command"
 description = "Django's runserver could not normally run on port 80. But there is a way to circumvent it."
 date = "2015-01-27T23:30:54+08:00"
-article-type = ["tip"]
+articleTypes = ["tip"]
 language = ["python"]
 tags = ["python", "django", "runserver"]
-
 +++
 
 If you want to test your Django application on port 80, you would probably do something like this
