@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Think Tech</title>
+    <title>Python on Thinker&#39;s Tech Tips</title>
     <link>http://arvinsim.github.io/techblog/tags/python/</link>
-    <description>Recent content in Python on Think Tech</description>
+    <description>Recent content in Python on Thinker&#39;s Tech Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Jan 2015 23:30:54 +0800</lastBuildDate>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unicode on Thinker&#39;s Tech Tips</title>
+    <link>http://arvinsim.github.io/techblog/tags/unicode/</link>
+    <description>Recent content in Unicode on Thinker&#39;s Tech Tips</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Mar 2015 11:43:46 +0800</lastBuildDate>
+    <atom:link href="http://arvinsim.github.io/techblog/tags/unicode/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Inputting Unicode characters in Vim</title>
+      <link>http://arvinsim.github.io/techblog/software/tools/inputting-unicode-characters-in-vim/</link>
+      <pubDate>Wed, 04 Mar 2015 11:43:46 +0800</pubDate>
+      
+      <guid>http://arvinsim.github.io/techblog/software/tools/inputting-unicode-characters-in-vim/</guid>
+      <description>
+
+&lt;h1 id=&#34;setup:fb6c55c8a119fea0982ce77ec9990331&#34;&gt;Setup&lt;/h1&gt;
+
+&lt;p&gt;We need to make sure that Vim encoding is set to UTF-8.&lt;/p&gt;
+
+&lt;p&gt;To check what encoding you are currently using, run this command&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;set encoding?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If it outputs something like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;encoding=utf-8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then you are good to go.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, set this option in your .vimrc file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;set encoding=utf-8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;inserting-unicode-characters:fb6c55c8a119fea0982ce77ec9990331&#34;&gt;Inserting unicode characters&lt;/h1&gt;
+
+&lt;p&gt;After doing the setup above, you are now ready to enter unicode characters.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Enter Insert or Replace Mode&lt;/li&gt;
+&lt;li&gt;Press &lt;em&gt;Control + v&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Press &lt;em&gt;u&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Enter the unicode number of the character&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I learned about this tip while I was customizing my &lt;a href=&#34;https://github.com/scrooloose/syntastic&#34;&gt;Syntastic&lt;/a&gt; linter options. My goal was to use unicode characters for the error and warning markers in the gutter.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

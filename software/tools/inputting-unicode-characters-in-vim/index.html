@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en-us"></html><html lang="en-us"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Inputting Unicode characters in Vim &middot; Thinker&#39;s Tech Tips</title><link rel="stylesheet" href="http://arvinsim.github.io/techblog/css/main.css"><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css"><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script><script>
+hljs.initHighlightingOnLoad();
+</script></head><body><div class="app"><header><div class="details"><span class="logo">＿〆(。。)</span><h1 class="title"><a href="http://arvinsim.github.io/techblog">Thinker&#39;s Tech Tips</a></h1><h2 class="description">A web developer blog</h2></div></header><main class="single"><section class="post"><div class="header"><span class="date">March 4, 2015</span><h1>Inputting Unicode characters in Vim</h1><a class="tag" href="http://arvinsim.github.io/techblog/tags/vim">vim</a><a class="tag" href="http://arvinsim.github.io/techblog/tags/unicode">unicode</a><a class="tag" href="http://arvinsim.github.io/techblog/tags/encoding">encoding</a></div><div class="content">
+
+<h1 id="setup:fb6c55c8a119fea0982ce77ec9990331">Setup</h1>
+
+<p>We need to make sure that Vim encoding is set to UTF-8.</p>
+
+<p>To check what encoding you are currently using, run this command</p>
+
+<pre><code>set encoding?
+</code></pre>
+
+<p>If it outputs something like this</p>
+
+<pre><code>encoding=utf-8
+</code></pre>
+
+<p>Then you are good to go.</p>
+
+<p>Otherwise, set this option in your .vimrc file</p>
+
+<pre><code>set encoding=utf-8
+</code></pre>
+
+<h1 id="inserting-unicode-characters:fb6c55c8a119fea0982ce77ec9990331">Inserting unicode characters</h1>
+
+<p>After doing the setup above, you are now ready to enter unicode characters.</p>
+
+<ol>
+<li>Enter Insert or Replace Mode</li>
+<li>Press <em>Control + v</em></li>
+<li>Press <em>u</em></li>
+<li>Enter the unicode number of the character</li>
+</ol>
+
+<hr />
+
+<p>I learned about this tip while I was customizing my <a href="https://github.com/scrooloose/syntastic">Syntastic</a> linter options. My goal was to use unicode characters for the error and warning markers in the gutter.</p>
+</div></section></main><footer>&copy; 2015 All Rights Reserved.</footer></div></body></html>

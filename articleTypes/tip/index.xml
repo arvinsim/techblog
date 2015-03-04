@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Softwares on Thinker&#39;s Tech Tips</title>
-    <link>http://arvinsim.github.io/techblog/software/</link>
-    <description>Recent content in Softwares on Thinker&#39;s Tech Tips</description>
+    <title>Tip on Thinker&#39;s Tech Tips</title>
+    <link>http://arvinsim.github.io/techblog/articletypes/tip/</link>
+    <description>Recent content in Tip on Thinker&#39;s Tech Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Mar 2015 11:43:46 +0800</lastBuildDate>
-    <atom:link href="http://arvinsim.github.io/techblog/software/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://arvinsim.github.io/techblog/articletypes/tip/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Inputting Unicode characters in Vim</title>
@@ -52,31 +52,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;I learned about this tip while I was customizing my &lt;a href=&#34;https://github.com/scrooloose/syntastic&#34;&gt;Syntastic&lt;/a&gt; linter options. My goal was to use unicode characters for the error and warning markers in the gutter.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Site Redesign: Contrast Ratio</title>
-      <link>http://arvinsim.github.io/techblog/software/tools/leaverou-wcag-contrast-ratio/</link>
-      <pubDate>Fri, 27 Feb 2015 12:01:07 +0800</pubDate>
-      
-      <guid>http://arvinsim.github.io/techblog/software/tools/leaverou-wcag-contrast-ratio/</guid>
-      <description>&lt;p&gt;During this site redesign, I wanted to check if my text look
-good against the background. I only learned later that the term is called
-&lt;a href=&#34;http://en.wikipedia.org/wiki/Contrast_ratio&#34;&gt;contrast-ratio&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;So I googled around to find a tool that would help me with that task.
-Fortunately, I found a minimalistic tool that is just right for my use case.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://leaverou.github.io/contrast-ratio/&#34;&gt;Contrast-Ratio&lt;/a&gt;
-is a tool to check if the contrast ratio of your text and background
-match the &lt;a href=&#34;http://www.w3.org/TR/WCAG/#visual-audio-contrast&#34;&gt;WCAG standards&lt;/a&gt;.
-In layman&amp;rsquo;s terms, it indicates if your font and background combination has enough contrast to be readable.&lt;/p&gt;
-
-&lt;p&gt;As a rule of the thumb, WCAG recommends a contrast ratio of 4.5:1&lt;/p&gt;
-
-&lt;p&gt;I used this to get this light-on-dark theme that this site currently has. It has a contrast
-ratio of 10, which is more than enough to pass the WCAG standards.&lt;/p&gt;
 </description>
     </item>
     

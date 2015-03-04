@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on Think Tech</title>
+    <title>Git on Thinker&#39;s Tech Tips</title>
     <link>http://arvinsim.github.io/techblog/tags/git/</link>
-    <description>Recent content in Git on Think Tech</description>
+    <description>Recent content in Git on Thinker&#39;s Tech Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Jan 2015 09:42:15 +0800</lastBuildDate>
